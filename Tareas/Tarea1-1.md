@@ -1,2 +1,2 @@
-# Práctica 1.1
-![task1.1](../Images/task1.1.png)
+# Tarea 1.1
+![Tarea1.1](../Images/tarea1.1.png)
