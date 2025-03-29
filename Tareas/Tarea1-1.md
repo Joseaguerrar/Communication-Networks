@@ -68,6 +68,6 @@ A continuación se propone un diseño de red según lo solicitado:
 
 ### 🔷 Topologías utilizadas
 
-- **Topología en estrella** para la distribución centralizada de recursos.
-- **Topología en anillo** para garantizar redundancia y comunicación directa entre nodos.
-- **Topología en bus** para conectar subredes de forma eficiente con poco cableado.
+- **Topología en estrella**
+- **Topología en anillo**
+- **Topología en mesh**
