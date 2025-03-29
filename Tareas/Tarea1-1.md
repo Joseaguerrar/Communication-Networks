@@ -2,8 +2,36 @@
 ![Tarea1.1](../Images/tarea1.1.png)
 
 
+# Pregunta 1: Análisis de la Red
 
+Se analiza la red dada en función de tres métricas fundamentales: grado, diámetro y ancho de banda de bisección.
 
+## 1. Grado de la Red
+
+El grado de un nodo es la cantidad de conexiones que tiene con otros nodos. A continuación se muestran los grados individuales de cada nodo:
+
+- A: 4  
+- B: 5  
+- C: 5  
+- D: 1  
+- E: 3  
+- F: 3  
+- G: 4  
+- H: 1  
+- J: 4  
+
+**Suma total de grados:** 30  
+**Número total de nodos:** 9
+
+El **grado promedio de la red** se calcula como:
+
+\[
+\frac{30}{9} \approx 3.33
+\]
+
+Por lo tanto, el **grado de la red es aproximadamente 3.33**.
+
+---
 ## 2. Diámetro de la Red
 
 El diámetro de una red es la ruta más corta más larga entre cualquier par de nodos.
