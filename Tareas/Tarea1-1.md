@@ -25,9 +25,9 @@ El grado de un nodo es la cantidad de conexiones que tiene con otros nodos. A co
 
 El **grado promedio de la red** se calcula como:
 
-\[
-\frac{30}{9} \approx 3.33
-\]
+
+30 / 9 = aproximadamente 3.33
+
 
 Por lo tanto, el **grado de la red es aproximadamente 3.33**.
 
