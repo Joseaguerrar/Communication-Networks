@@ -1,5 +1,5 @@
 # Tarea 1.1
-![Tarea1.1](../Images/tarea1.1.png)
+![Tarea1.1](../Images/T1.1/enunciado.png)
 
 
 # Pregunta 1: Análisis de la Red
@@ -60,4 +60,14 @@ Por lo tanto, el **ancho de banda de bisección (bisection bandwidth)** de esta 
 
 **Bisection Bandwidth = 3**
 
+## 2. Diseño de una Red con Diferentes Topologías
 
+A continuación se propone un diseño de red según lo solicitado:
+
+![Tarea1.1](../Images/T1.1/Tarea1.1-Redes.drawio.png)
+
+### 🔷 Topologías utilizadas
+
+- **Topología en estrella** para la distribución centralizada de recursos.
+- **Topología en anillo** para garantizar redundancia y comunicación directa entre nodos.
+- **Topología en bus** para conectar subredes de forma eficiente con poco cableado.
