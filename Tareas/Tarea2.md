@@ -18,7 +18,7 @@
 **Cantidad de paquetes sin pérdidas:**
 1024 Mb / 8 Mb = 128 paquetes
 
-```css
+```bash
 
 **Ajustando por pérdida de paquetes (2.5%):**
 Valor esperado: E = 1 / 0.975 ≈ 1.0256 transmisiones por paquete 128 × 1.0256 ≈ 131.28 transmisiones
@@ -41,8 +41,6 @@ Latencia ≈ 2.04 s
 ✅ **Respuesta:** La latencia del enlace es de aproximadamente **2.04 segundos**.
 
 ---
-
-![Tarea2.2](../Images/T2/Tarea2.2.png)
 
 ---
 
@@ -78,6 +76,8 @@ Aunque se contrate 1 Gbps de ancho de banda, **la latencia mínima seguirá sien
 | Calidad de Servicio   | Difícil de garantizar              | Más fácil de controlar                    |
 
 ---
+
+![Tarea2.2](../Images/T2/Tarea2.2.png)
 
 ## 4. Cálculo del retardo total para transferir un archivo de 10 Mb
 
@@ -145,7 +145,7 @@ Un **ACK** (Acknowledgment) es un mensaje de confirmación enviado por el recept
 - Se utiliza en protocolos como **TCP** para garantizar la entrega de datos.
 - Si no se recibe un ACK, el emisor puede **retransmitir el paquete**, asumiendo pérdida.
 
-✅ **Ejemplo:**  
+ **Ejemplo:**  
 Servidor envía un archivo → Cliente lo recibe → Cliente responde con un ACK pequeño (ej: "Recibido paquete 5").
 
 ---
