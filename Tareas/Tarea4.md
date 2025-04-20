@@ -28,8 +28,8 @@ Donde:
 - \(M\): número de niveles de señal distintos
 
 Dado:
-- Ancho de banda: \( B = 6\ \text{MHz} = 6 \cdot 10^6\ \text{Hz} \)
-- Niveles de señal: \( M = 4 \) (es decir, 2 bits por símbolo ya que \(\log_2 4 = 2\))
+- Ancho de banda: \( B = 6 MHz = 6 * 10^6 Hz \)
+- Niveles de señal: \( M = 4 \) (es decir, 2 bits por símbolo ya que \(log_2 4 = 2\))
 
 Entonces:
 
@@ -60,11 +60,11 @@ C = B \cdot \log_2(1 + \mathrm{SNR})
 Donde:
 - \(C\): capacidad del canal (bps)
 - \(B\): ancho de banda en Hz
-- \(\mathrm{SNR}\): relación señal a ruido **en forma lineal** (no en dB)
+- \(SNR\): relación señal a ruido **en forma lineal** (no en dB)
 
 Dado:
-- \( B = 3,000\ \text{Hz} \)
-- \( \mathrm{SNR}_{\text{dB}} = 20 \)
+- B = 3,000 Hz
+- SNR dB = 20 
 
 Primero, convertimos de decibelios (dB) a la forma lineal:
 
@@ -72,7 +72,7 @@ Primero, convertimos de decibelios (dB) a la forma lineal:
 \mathrm{SNR} = 10^{\frac{20}{10}} = 10^2 = 100
 ```
 
-Esta conversión es necesaria porque la fórmula de Shannon usa \(\mathrm{SNR}\) como una relación directa, no logarítmica.
+Esta conversión es necesaria porque la fórmula de Shannon usa *SNR* como una relación directa, no logarítmica.
 
 Ahora aplicamos la fórmula:
 
@@ -124,7 +124,7 @@ Universidad Politécnica de Madrid. (s.f.). *Capítulo 4: Sistemas celulares cl�
 ## Ejercicio 2.48 – Estimación de Microceldas para San José
 
 ### Explicación:
-Se desea estimar cuántas microceldas de \(100\ \text{m}\) de diámetro son necesarias para cubrir San José, cuya superficie es de \(45\ \text{km}^2\). 
+Se desea estimar cuántas microceldas de 100 m de diámetro son necesarias para cubrir San José, cuya superficie es de 45km^2. 
 En este caso vamos a usar un hexágono ya que es el modelo que se utiliza normalmente.
 
 Convertimos el área total:
