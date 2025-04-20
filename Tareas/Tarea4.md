@@ -32,7 +32,7 @@ Dado:
 - Niveles de señal: \( M = 4 \) (es decir, 2 bits por símbolo ya que 
 
 ```math 
-(\log_2 (4) = 2\)) 
+(\log_2 (4) = 2) 
 ```
 
 Entonces:
