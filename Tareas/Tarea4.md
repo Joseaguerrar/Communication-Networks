@@ -29,7 +29,7 @@ Donde:
 
 Dado:
 - Ancho de banda: \( B = 6 MHz = 6 * 10^6 Hz \)
-- Niveles de señal: \( M = 4 \) (es decir, 2 bits por símbolo ya que 
+- Niveles de señal: \( M = 4 \) (es decir, 2 bits por símbolo ya que) 
 
 ```math 
 (\log_2 (4) = 2) 
