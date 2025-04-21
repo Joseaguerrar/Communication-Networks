@@ -41,11 +41,11 @@ Approximate round trip times in milli-seconds:
 
 ```
 
-![Tarea4](../Images/T4/General.png)
+![Tarea4](../../Images/T4/General.png)
 
-![Tarea4](../Images/T4/Outbound.png)
+![Tarea4](../../Images/T4/Outbound.png)
 
-![Tarea4](../Images/T4/Inbound.png)
+![Tarea4](../../Images/T4/Inbound.png)
 
 **Outbound PDU Details**
 Paquete saliente desde el dispositivo (como Pod PC cuando hace un ping)
@@ -98,6 +98,6 @@ Find the first packet in the Event List. This is the first echo request. Click o
 To simulate the operation of Wireshark, click on the colored square in the Info column for the next event where the At Device is Pod PC. This is the first echo reply. Click the Inbound PDU Details tab to view the content of the ICMP message.
 View the remainder of the events where the At Device is Pod PC.
 
-![Tarea4](../Images/T4/complexUDP.png)
+![Tarea4](../../Images/T4/complexUDP.png)
 
-![Tarea4](../Images/T4/OutboundUDP.png)
+![Tarea4](../../Images/T4/OutboundUDP.png)
