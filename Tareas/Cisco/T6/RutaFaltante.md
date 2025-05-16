@@ -1,6 +1,6 @@
-## 2.7.3: Resolución de la ruta que falta
+# 2.7.3: Resolución de la ruta que falta
 
-### Tabla de direcciones
+## Tabla de direcciones
 
 | Dispositivo | Interfaz | Dirección IP | Máscara de subred | Gateway por defecto |
 |-------------|----------|--------------|--------------------|----------------------|
@@ -17,13 +17,13 @@
 
 ---
 
-### Introducción
+## Introducción
 
 En esta actividad, examinaremos el problema de una ruta estática mal configurada descrito en esta sección. Utilizaremos el modo simulación del Packet Tracer para rastrear los paquetes en la red mal configurada. Corregiremos la red y observaremos el funcionamiento correcto.
 
 ---
 
-### Objetivos de aprendizaje
+## Objetivos de aprendizaje
 
 - Examinar el router.
 - Visualizar la configuración.
