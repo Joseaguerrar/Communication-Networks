@@ -1,5 +1,3 @@
-// Subnet.hpp
-
 #ifndef SUBNET_HPP
 #define SUBNET_HPP
 
@@ -7,44 +5,48 @@
 #include <vector>
 #include <cstdint>
 
-using namespace std;
+// Representa una solicitud de subred
 struct SubnetRequest
 {
-    string name;   // Nombre del rango (A, B, etc.)
+    std::string name;   // Nombre del conjunto (A, B, etc.)
     int original_hosts; // Hosts solicitados
-    int adjusted_hosts; // Hosts necesarios (ajustado a potencia de 2)
+    int adjusted_hosts; // Hosts ajustados (potencia de 2)
 };
 
+// Representa la asignación de una subred con todos sus datos
 struct SubnetAssignment
 {
-    string name;
+    std::string name;
     int adjusted_hosts;
-    string network_address;
+    std::string network_address;
     int cidr_mask;
-    string broadcast_address;
-    string first_usable;
-    string last_usable;
+    std::string broadcast_address;
+    std::string first_usable;
+    std::string last_usable;
 };
 
+// Calculadora de subredes que realiza ordenamiento, asignación y presentación
 class SubnetCalculator
 {
 public:
-    SubnetCalculator(const string &base_ip, const string &order);
+    SubnetCalculator(const std::string &base_ip, const std::string &set_order, const std::string &ip_order);
 
-    void addRequest(const string &name, int hosts);
-    void processRequests();
-    void printAssignments() const;
+    void addRequest(const std::string &name, int hosts); // Agrega una solicitud
+    void processRequests();                              // Realiza el cálculo y asignación
+    void printAssignments() const;                       // Imprime el resultado en tabla
 
 private:
-    string base_ip;
-    string order; // "ascending" o "descending"
-    vector<SubnetRequest> requests;
-    vector<SubnetAssignment> assignments;
+    std::string base_ip;   // IP base de la red
+    std::string set_order; // "biggest" o "smallest"
+    std::string ip_order;  // "biggest" o "smallest"
 
-    uint32_t ipToInt(const string &ip) const;
-    string intToIp(uint32_t ip) const;
-    int calculateCidrMask(int adjusted_hosts) const;
-    void sortRequests();
+    std::vector<SubnetRequest> requests;       // Lista de solicitudes
+    std::vector<SubnetAssignment> assignments; // Lista de asignaciones
+
+    uint32_t ipToInt(const std::string &ip) const;   // IP string → entero
+    std::string intToIp(uint32_t ip) const;          // Entero → IP string
+    int calculateCidrMask(int adjusted_hosts) const; // Cálculo de CIDR
+    void sortRequests();                             // Ordena las solicitudes
 };
 
-#endif // SUBNET_HPP
+#endif
