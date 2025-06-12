@@ -43,8 +43,8 @@ private:
     std::vector<SubnetRequest> requests;       // Lista de solicitudes
     std::vector<SubnetAssignment> assignments; // Lista de asignaciones
 
-    uint32_t ipToInt(const std::string &ip) const;   // IP string → entero
-    std::string intToIp(uint32_t ip) const;          // Entero → IP string
+    uint32_t ipToInt(const std::string &ip) const;   // IP string a entero
+    std::string intToIp(uint32_t ip) const;          // Entero a IP string
     int calculateCidrMask(int adjusted_hosts) const; // Cálculo de CIDR
     void sortRequests();                             // Ordena las solicitudes
 };
